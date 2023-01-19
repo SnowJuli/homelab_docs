@@ -21,7 +21,7 @@
       # Service HTTPS
       - 'traefik.http.routers.replace-secure.entrypoints=https'
       - 'traefik.http.routers.replace-secure.rule=Host(`replace.domain`)'
-      - 'traefik.http.routers.replace-secure.service=service-ui'
+      - 'traefik.http.routers.replace-secure.service=replace-ui'
       - 'traefik.http.routers.replace-secure.tls=true'
       - 'traefik.http.routers.replace-secure.tls.domains=replace.domain'
       - 'traefik.http.services.replace-ui.loadBalancer.server.port=6969'
