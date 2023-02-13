@@ -30,7 +30,7 @@
 
 ```yaml
 networks:
-  default:
+  network1:
     name: traefik_default
     external: true
 ```
