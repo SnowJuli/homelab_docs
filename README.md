@@ -31,6 +31,6 @@
 ```yaml
 networks:
   network1:
-    name: traefik_default
+    name: proxy
     external: true
 ```
